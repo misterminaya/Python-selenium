@@ -1,5 +1,6 @@
 import time
-from selenium import webdriver
+from selenium import webdri
+
 
 driver = webdriver.Chrome('driver/chromedriver.exe')
 driver.get('http://newtours.demoaut.com')
