@@ -26,3 +26,8 @@ Class Name (find_element_by_class_name)
 CSS Selector (find_element_by_css_selector)
 ```
 
+#####Assert:
+Assertions are simply boolean expressions that checks if
+the conditions return true or not. If it is true, the 
+program does nothing and move to the next line of code.
+However, if it's false, the program stops and throws an error

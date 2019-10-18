@@ -16,7 +16,11 @@ class newTours(unittest.TestCase):
         countryDropDown.select_by_index(5)
         countryDropDown.select_by_value("11")
         countryDropDown.select_by_visible_text("CONGO")
-        self.assertEquals(countryDropDown.first_selected_option.text.strip(),"CONGO")
+        #self.assertEquals(countryDropDown.first_selected_option.text.strip(),"CONGO")
+        #self.assertNotEquals(countryDropDown.first_selected_option.text.strip(), "ITALY")
+        self.assertTrue(countryDropDown.first_selected_option.text.strip() == "CONGO")
+        self.assertFalse(countryDropDown.first_selected_option.text.strip() == "ARGENTINA")
+        self.assertFalse(countryDropDown.first_selected_option.text.strip() != "CONGO")
         print("Test Complete")
 
     def test_register(self):
@@ -27,6 +31,7 @@ class newTours(unittest.TestCase):
         #assert link_registration_form.text == "registration form"
         self.assertEquals(link_registration_form.text,"registration form")
         print("Complete test")
+
 
     def tearDown(self):
         self.driver.quit()
