@@ -3,15 +3,18 @@ import time
 import unittest
 from selenium import webdriver
 from selenium.webdriver.support.ui import Select
+from Pages.PageIndex import *
 
 class newTours(unittest.TestCase):
     def setUp(self):
         self.driver = webdriver.Chrome('driver/chromedriver.exe')
         self.driver.get('http://newtours.demoaut.com')
+        self.page_index = PageIndex(self.driver)
         time.sleep(5)
 
     def test_dropdown(self):
-        self.driver.find_element_by_link_text("REGISTER").click()
+        #self.driver.find_element_by_link_text("REGISTER").click()
+        self.page_index.click_register()
         countryDropDown = Select(self.driver.find_element_by_name("country"))
         countryDropDown.select_by_index(5)
         countryDropDown.select_by_value("11")
@@ -24,9 +27,7 @@ class newTours(unittest.TestCase):
         print("Test Complete")
 
     def test_register(self):
-        user_box = self.driver.find_element_by_name('userName').send_keys('test')
-        pass_box = self.driver.find_element_by_name('password').send_keys('test')
-        submit_button = self.driver.find_element_by_name('login').click()
+        self.page_index.login('test','test')
         link_registration_form = self.driver.find_element_by_link_text("registration form")
         #assert link_registration_form.text == "registration form"
         self.assertEquals(link_registration_form.text,"registration form")
