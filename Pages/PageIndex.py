@@ -12,3 +12,5 @@ class PageIndex:
         pass_box = self.driver.find_element_by_name('password').send_keys(password)
         submit_button = self.driver.find_element_by_name('login').click()
         time.sleep(3)
+
+    
