@@ -3,6 +3,7 @@ import unittest
 from selenium import webdriver
 from Pages.PageIndex import *
 from Pages.FlightPage import *
+from Pages.PageRegister import *
 
 class newTours(unittest.TestCase):
     def setUp(self):
@@ -10,6 +11,7 @@ class newTours(unittest.TestCase):
         self.driver.get('http://newtours.demoaut.com')
         self.page_index = PageIndex(self.driver)
         self.page_flight = FlightPage(self.driver)
+        self.page_register = PageRegister(self.driver)
         time.sleep(5)
 
     def test_dropdown(self):
