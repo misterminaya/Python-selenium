@@ -10,9 +10,10 @@ class newTours(unittest.TestCase):
         self.driver = webdriver.Chrome('driver/chromedriver.exe')
         self.driver.get('http://newtours.demoaut.com')
         self.page_index = PageIndex(self.driver)
-        self.page_flight = FlightPage(self.driver)
+       # self.page_flight = FlightPage(self.driver)
+       # self.page_flight = FlightPage(self.driver)
         self.page_register = PageRegister(self.driver)
-        time.sleep(5)
+        #time.sleep(5)
 
     def test_dropdown(self):
         self.page_index.click_register()
