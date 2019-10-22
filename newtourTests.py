@@ -10,10 +10,10 @@ class newTours(unittest.TestCase):
         self.driver = webdriver.Chrome('driver/chromedriver.exe')
         self.driver.get('http://newtours.demoaut.com')
         self.page_index = PageIndex(self.driver)
-       # self.page_flight = FlightPage(self.driver)
-       # self.page_flight = FlightPage(self.driver)
+        self.page_flight = FlightPage(self.driver)
+        self.page_flight = FlightPage(self.driver)
         self.page_register = PageRegister(self.driver)
-        #time.sleep(5)
+        time.sleep(5)
 
     def test_dropdown(self):
         self.page_index.click_register()
@@ -27,9 +27,9 @@ class newTours(unittest.TestCase):
         print("3")
 
     def test_register(self):
-        self.page_index.login('test','test')
+        self.page_index.login('test', 'test')
         link_registration_form = self.driver.find_element_by_link_text("registration form")
-        self.assertEqual(link_registration_form.text,"registration form")
+        self.assertEqual(link_registration_form.text, "registration form")
         print("Complete test")
 
 
