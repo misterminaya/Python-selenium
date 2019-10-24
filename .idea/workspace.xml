@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d578a5d0-896b-4c04-a287-0004e15aa0ba" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/FlightPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/FlightPage.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pages/PageIndex.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/PageIndex.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/newtourTests.py" beforeDir="false" afterPath="$PROJECT_DIR$/newtourTests.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,8 +25,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/newtourTests.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="7" column="34" lean-forward="true" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
+            <state relative-caret-position="239">
+              <caret line="20" column="54" lean-forward="true" selection-start-line="11" selection-end-line="12" />
               <folding>
                 <element signature="e#1#16#0" expanded="true" />
               </folding>
@@ -38,8 +37,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Pages/PageIndex.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="65" lean-forward="true" selection-start-line="24" selection-start-column="65" selection-end-line="24" selection-end-column="65" />
+            <state relative-caret-position="196">
+              <caret line="12" column="29" lean-forward="true" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -50,8 +49,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Pages/FlightPage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="121">
-              <caret line="12" column="51" lean-forward="true" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
+            <state relative-caret-position="51">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
               <folding>
                 <element signature="e#0#48#0" expanded="true" />
               </folding>
@@ -125,8 +124,8 @@
         <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/Pages/PageRegister.py" />
-        <option value="$PROJECT_DIR$/Pages/FlightPage.py" />
         <option value="$PROJECT_DIR$/newtourTests.py" />
+        <option value="$PROJECT_DIR$/Pages/FlightPage.py" />
         <option value="$PROJECT_DIR$/Pages/PageIndex.py" />
       </list>
     </option>
@@ -182,7 +181,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for newtourTests.newTours">
+  <component name="RunManager" selected="Python tests.Unittests in newtourTests.py">
     <configuration name="FlightPage" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python-selenium" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -253,7 +252,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for newtourTests.newTours.test_register" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests in newtourTests.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="python-selenium" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -263,17 +262,17 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;newtourTests.newTours.test_register&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/newtourTests.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests for newtourTests.newTours" />
+        <item itemvalue="Python tests.Unittests in newtourTests.py" />
         <item itemvalue="Python tests.Unittests for newtourTests.newTours.test_dropdown" />
+        <item itemvalue="Python tests.Unittests for newtourTests.newTours" />
         <item itemvalue="Python.FlightPage" />
         <item itemvalue="Python.PageRegister" />
-        <item itemvalue="Python tests.Unittests for newtourTests.newTours.test_register" />
       </list>
     </recent_temporary>
   </component>
@@ -291,12 +290,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_newtourTests_newTours_test_dropdown - 2019.10.18 at 19h 04m 55s.xml">
-      <configuration name="Unittests for newtourTests.newTours.test_dropdown" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_newtourTests_newTours - 2019.10.18 at 19h 06m 09s.xml">
-      <configuration name="Unittests for newtourTests.newTours" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_for_newtourTests_newTours_test_dropdown - 2019.10.18 at 19h 11m 09s.xml">
       <configuration name="Unittests for newtourTests.newTours.test_dropdown" configurationId="tests" />
     </history-entry>
@@ -321,6 +314,12 @@
     <history-entry file="Unittests_for_newtourTests_newTours - 2019.10.19 at 23h 48m 51s.xml">
       <configuration name="Unittests for newtourTests.newTours" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_for_newtourTests_newTours - 2019.10.23 at 23h 50m 45s.xml">
+      <configuration name="Unittests for newtourTests.newTours" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_newtourTests_newTours_test_dropdown - 2019.10.23 at 23h 53m 49s.xml">
+      <configuration name="Unittests for newtourTests.newTours.test_dropdown" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -331,7 +330,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.49590835" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.49590835" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -345,12 +344,12 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.49590835" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.49590835" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -399,16 +398,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Pages/FlightPage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="12" column="51" lean-forward="true" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
-          <folding>
-            <element signature="e#0#48#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Pages/PageRegister.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -421,18 +410,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/newtourTests.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="7" column="34" lean-forward="true" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
+        <state relative-caret-position="239">
+          <caret line="20" column="54" lean-forward="true" selection-start-line="11" selection-end-line="12" />
           <folding>
             <element signature="e#1#16#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Pages/FlightPage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Pages/PageIndex.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="65" lean-forward="true" selection-start-line="24" selection-start-column="65" selection-end-line="24" selection-end-column="65" />
+        <state relative-caret-position="196">
+          <caret line="12" column="29" lean-forward="true" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
