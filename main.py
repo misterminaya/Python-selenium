@@ -1,5 +1,5 @@
 import time
-from selenium import webdri
+from selenium import webdriver
 
 
 driver = webdriver.Chrome('driver/chromedriver.exe')

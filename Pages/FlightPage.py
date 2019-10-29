@@ -20,11 +20,11 @@ class FlightPage:
 
     def verify_country(self, country):
         tc = unittest.TestCase('__init__')
-        tc.assertEqual(Select(self.find_element(*self.countryDropDown)).first_selected_option.text.strip(), country)
+        tc.assertEqual(Select(self.driver.find_element(*self.countryDropDown)).first_selected_option.text.strip(), country)
 
     def verify_not_country(self, country):
         tc = unittest.TestCase('__init__')
-        tc.assertNotEqual(Select(self.find_element(*self.countryDropDown)).first_selected_option.text.strip(), country)
+        tc.assertNotEqual(Select(self.driver.find_element(*self.countryDropDown)).first_selected_option.text.strip(), country)
 
     def verify_true_country(self, country):
         tc = unittest.TestCase('__init__')
