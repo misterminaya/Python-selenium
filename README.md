@@ -9,13 +9,13 @@ Tutorial Selenium - curso dictado por Pablo Soifer
 pip install selenium
 ```
 
-#####Instalar Chrome Driver :
+####Instalar Chrome Driver :
 ```json
 https://chromedriver.chromium.org/downloads
 ```
 
 
-#####Como Lozalizar elementos:
+####Como Lozalizar elementos:
 ```buildoutcfg
 Id   (find_element_by_id)
 Name (find_element_by_name)
@@ -26,7 +26,7 @@ Class Name (find_element_by_class_name)
 CSS Selector (find_element_by_css_selector)
 ```
 
-#####Assert:
+####Assert:
 Assertions are simply boolean expressions that checks if
 the conditions return true or not. If it is true, the 
 program does nothing and move to the next line of code.
