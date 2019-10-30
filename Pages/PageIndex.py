@@ -1,5 +1,8 @@
-import time
 from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions
+
+from selenium.webdriver.common.keys import Keys
 
 
 class PageIndex:
@@ -18,7 +21,13 @@ class PageIndex:
         self.driver.implicitly_wait(5)
         self.driver.find_element(*self.user_box).send_keys(user_name)
         self.driver.find_element(*self.pass_box).send_keys(password)
+        try:
+            submit = WebDriverWait(self.driver,5).until(expected_conditions.element_to_be_clickable(self.submit_button))
+        except:
+            print("Element is not clickable")
+
         self.driver.find_element(*self.submit_button).click()
 
-
+    def login_by_tab(self,user_name,password):
+        self.driver.find_element(*self.user_box).send_keys(user_name+Keys.TAB+password+Keys.TAB+Keys.ENTER)
     
