@@ -4,6 +4,7 @@ from selenium import webdriver
 from Pages.PageIndex import *
 from Pages.FlightPage import *
 from Pages.PageRegister import *
+import xmlrunner
 
 class newTours(unittest.TestCase):
     def setUp(self):
@@ -13,7 +14,6 @@ class newTours(unittest.TestCase):
         self.page_flight = FlightPage(self.driver)
         self.page_register = PageRegister(self.driver)
 
-
     def test_dropdown(self):
         self.page_index.click_register()
         self.page_flight.select_country_by_index(5)
@@ -21,7 +21,6 @@ class newTours(unittest.TestCase):
         self.page_flight.select_country_by_name("CONGO")
         self.page_flight.verify_country("CONGO")
         self.page_flight.verify_not_country("ITALY")
-
 
     def test_register(self):
         self.page_index.login('test', 'test')
@@ -35,3 +34,7 @@ class newTours(unittest.TestCase):
         self.driver.close()
         self.driver.quit()
 
+    if __name__ == '__main__':
+        unittest.main(
+            testRunner=xmlrunner.XMLTestRunner(output=='output'),
+            failfast=False, buffer=False, catchbreak=False)

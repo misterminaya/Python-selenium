@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="0" failures="0" file="newtourTests.py" name="newtourTests.newTours-20191029232048" skipped="0" tests="3" time="32.854" timestamp="2019-10-29T23:21:21">
+	<testcase classname="newtourTests.newTours" file="newtourTests.py" line="17" name="test_dropdown" time="11.598" timestamp="2019-10-29T23:20:59">
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+	<testcase classname="newtourTests.newTours" file="newtourTests.py" line="30" name="test_login_by_tabs" time="10.497" timestamp="2019-10-29T23:21:10">
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+	<testcase classname="newtourTests.newTours" file="newtourTests.py" line="25" name="test_register" time="10.759" timestamp="2019-10-29T23:21:21">
+		<system-out>
+<![CDATA[Exit code 
+Complete test
+]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+</testsuite>
