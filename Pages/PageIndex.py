@@ -25,9 +25,7 @@ class PageIndex:
             submit = WebDriverWait(self.driver,5).until(expected_conditions.element_to_be_clickable(self.submit_button))
         except:
             print("Element is not clickable")
-
         self.driver.find_element(*self.submit_button).click()
 
     def login_by_tab(self,user_name,password):
         self.driver.find_element(*self.user_box).send_keys(user_name+Keys.TAB+password+Keys.TAB+Keys.ENTER)
-    

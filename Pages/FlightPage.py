@@ -16,6 +16,7 @@ class FlightPage:
     def select_country_by_value(self, value):
         Select(self.driver.find_element(*self.countryDropDown)).select_by_value(value)
         self.driver.get_screenshot_as_file('screenValue.png')
+
     def select_country_by_name(self, name):
         Select(self.driver.find_element(*self.countryDropDown)).select_by_visible_text(name)
 

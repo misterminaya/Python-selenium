@@ -4,7 +4,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 
 class PageRegister():
-    def __init__(self, myDriver):
+    def __init__(self,myDriver):
         self.driver = myDriver
         self.link_registration_form = (By.LINK_TEXT, "registration form")
 
@@ -14,4 +14,4 @@ class PageRegister():
         self.driver.implicitly_wait(5)
         registration_link = self.driver.find_element(*self.link_registration_form)
         tc.assertEqual(registration_link.text, "registration form")
-        print("Exit code ")
+        print("Exit code")
